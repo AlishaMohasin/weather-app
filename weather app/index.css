@@ -1,0 +1,64 @@
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;
+margin-left: 500px;}
+.mapouter{position:relative;text-align:right;height:500px;width:600px;
+margin-left:500px;}
+/* nav */
+#nav{
+    display:flex;
+    height:80px;
+    width: 100%;
+    background-color:#0b4561 ;
+    border: none;
+    margin: none;
+    justify-content: space-around;
+}
+#title{
+    font-size: 24px;
+    color: rgb(206, 200, 200);
+    font-weight: bold;
+    margin-top: 20px;
+}
+#city{
+    margin-top: 20px;
+   
+    height:40px ;
+    width: 300px;
+    border-radius:10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#submit{
+  
+    height: 40px;
+    width:120px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #b6dcfc;
+    border: none;
+    color: #0b4561;
+}
+#getweather{
+    height: 40px;
+    width:auto;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #b6dcfc;
+    border: none;
+    color: #0b4561;
+
+}
+*{
+    font-family: 'DM Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+#maindiv{
+    width:100%;
+    height:auto;
+    border:1px solid black;
+    background-image:url("https://media.istockphoto.com/photos/blue-dye-indigo-background-picture-id700877076?k=20&m=700877076&s=612x612&w=0&h=995gY_ue0eMkzrTJ_brVPLHjgvdXDdNsirBP4STvnk4=") ;
+}
